@@ -1,0 +1,46 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.202
+Workplace Desk: follow a meeting-room issue from report to resolution.
+
+00:00:05.202 --> 00:00:11.631
+Start as the client. Search, status filters, and pagination help find existing tickets.
+
+00:00:11.631 --> 00:00:16.241
+Report an issue. Required fields are checked before anything is saved.
+
+00:00:16.241 --> 00:00:26.900
+Choose a common issue, then add the location and symptoms.
+
+00:00:26.900 --> 00:00:31.253
+TKT-1050 is saved and automatically routed to the Technical department manager.
+
+00:00:31.253 --> 00:00:37.550
+The demo selector lets us switch roles. Next: the department manager.
+
+00:00:37.550 --> 00:00:43.247
+The manager chooses a technician from the same department.
+
+00:00:43.247 --> 00:00:47.593
+Prakash now owns the work. The status changes to Pending Resolution.
+
+00:00:47.593 --> 00:01:00.192
+Switch to Prakash, the assigned technician, to add a progress update.
+
+00:01:00.192 --> 00:01:04.530
+The update is saved in the ticket history, with the author and time.
+
+00:01:04.530 --> 00:01:16.270
+After the repair, the technician explains the fix before resolving the ticket.
+
+00:01:16.270 --> 00:01:20.271
+Resolved. The explanation remains visible alongside the earlier update.
+
+00:01:20.271 --> 00:01:29.370
+Back as the client, the completed ticket appears under Resolved tickets.
+
+00:01:29.370 --> 00:01:34.959
+The activity trail shows who created, assigned, and resolved the same ticket.
+
+00:01:34.959 --> 00:01:40.461
+One issue, three roles, and a complete history. Setup and tests are in the README.

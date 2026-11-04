@@ -1,0 +1,19 @@
+{
+  "profile": "product-admin",
+  "sourceRoots": ["frontend/src"],
+  "locale": "en-IN",
+  "canonicalMap": "UX-CONTRACT.md",
+  "requiredCapabilities": ["Select/Listbox", "Form", "Scrollbar", "Toast", "CRUD"],
+  "ownership": { "Select/Listbox": "authored" },
+  "requiredCommands": ["unit", "lint", "typecheck", "build"],
+  "commands": {
+    "unit": "backend/.venv/bin/python backend/manage.py test tickets",
+    "lint": "npm --prefix frontend run lint",
+    "typecheck": "npm --prefix frontend run typecheck",
+    "build": "npm --prefix frontend run build"
+  },
+  "evidence": {
+    "crudFullFlow": "docs/VERIFICATION.md",
+    "failurePaths": "backend/tickets/tests.py"
+  }
+}
